@@ -9,24 +9,24 @@
 
 <body>
   <header class="header">
-      <div class="wrapper">
+      <div class="header_content wrapper">
         <a href="#" class="logo">
           <img src="./images/logo.svg" alt="Логотип интернет-магазина" width="135">
         </a>
         <nav class="nav">
           <ul class="nav_list">
             <li class="nav_list-item">
-              <a href="#">Репродукции</a>
+              <a href="#" class="nav_link">Репродукции</a>
             </li>
             <li class="nav_list-item">
-              <a href="#">Новинки</a>
+              <a href="#" class="nav_link">Новинки</a>
             </li>
             <li class="nav_list-item">
-              <a href="#">О нас</a>
+              <a href="#" class="nav_link">О нас</a>
             </li>
             <li class="nav_list-item">
               <a href="#" class="cart">
-                <span class="visually-hdden">Корзина</span>
+                <span class="visually-hidden">Корзина</span>
               </a>
             </li>
           </ul>
@@ -36,12 +36,53 @@
 
     <main class="main">
         <section class="hero">
-            <div class="hero-container">
-                <h1>Реплики картин от Ink.House</h1>
-                <p>Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
+          <h1 class="visually-hidden">Главная страница магазина Ink House</h1>
+            <section class="hero_content">
+                <h2 class="hero-title">Реплики картин от Ink.House</h2>
+                <p class="hero_subtitle">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
                 </p>
-                <a href="#">Продукция</a>
-            </div>
+                <a href="#" class="hero_production">Продукция</a>
+            </section>
+        </section>
+
+        <section class="reproduction wrapper">
+          <header class="reproduction_header">
+            <h2 class="reproduction_title">Репродукции</h2>
+            <ul class="reproduction_list">
+              <li class="reproduction_list-item current">
+                <button>Франция</button>
+              </li>
+              <li class="reproduction_list-item">
+                <button>Германия</button>
+              </li>
+              <li class="reproduction_list-item">
+                <button>Англия</button>
+              </li>
+            </ul>
+          </header>
+
+          <article class="pictures">
+            <ul>
+              <li>
+                <div></div>
+              </li>
+              <li>
+                <div></div>
+              </li>
+              <li>
+
+              </li>
+              <li>
+
+              </li>
+              <li>
+
+              </li>
+              <li>
+
+              </li>
+            </ul>
+          </article>
         </section>
     </main>
 </body>
