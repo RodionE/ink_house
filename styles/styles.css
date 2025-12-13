@@ -23,6 +23,10 @@ body {
   margin-right: 165px;
 }
 
+.pictures_germany, .pictures_england {
+  display: none;
+}
+
 img {
   display:block;
 }
@@ -44,13 +48,29 @@ ul {
   padding-top: 33px;
   padding-left: 165px;
   padding-right: 165px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header_content {
+  width: 1110px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  /* width: 1110px; */
 }
 .nav_list {
   display: flex;
+  width: 472px;
   margin-left: 495px;
+}
+
+.nav_link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2C2D35;
+}
+.nav_list-item:not(:first-child) {
+  margin-left: 60px;
 }
