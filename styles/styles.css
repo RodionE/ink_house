@@ -42,6 +42,8 @@ body {
 
 img {
   display:block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -96,4 +98,30 @@ ul {
   width: 22px;
   height: 22px;
   background-image: url("../images/shopping-cart.svg");
+}
+
+
+/* Main */
+
+.hero {
+  height: 621px;
+  background-image: url("../images/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 145px;
+  padding-left: 570px;
+}
+
+.hero_content {
+  width: 540px;
+}
+
+.hero-title {
+  font-size: 60px;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.brand {
+  color: #598D66;
 }
